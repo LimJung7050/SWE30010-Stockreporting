@@ -13,9 +13,11 @@
 <hr>
 
 <form action = "searchsalesprocess.php" method = "GET" >
-	<label>Sales Records Title:<br></label>
-    <input type="text" id="titles" name="title" placeholder="title" maxlength="30" required="required"><br/></p>
-	
+	<label>Please key in the sales record ID to be displayed: <br></label>
+	<br>
+    <input type="text" id="titles" name="title" placeholder="ID****" maxlength="30" required="required"><br/></p>
+	<br>
+	<br>
 	<p><button type="submit">Submit</button>
 </form>
 <?php
